@@ -2,9 +2,15 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html lang="en">
+            <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+                <title>SVG</title>
+                <meta name="author" content="Andrew Smirnov" />
+            </head>
             <body>
-                <p>Авторство</p><h4 id="author" title="a2s">Андрей Смирнов (с)2024</h4>
-                <a href="..">Вернуться назад</a>
+                <h4 id="author" title="a2s">Андрей Смирнов (с)2024</h4>
                 <xsl:apply-templates />
             </body>
         </html>
