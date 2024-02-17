@@ -12,10 +12,11 @@
                 <meta name="author" content="Andrew Smirnov" />
             </head>
             <body>
-                <p>Formula</p>
+                <p>Equation</p>
                 <math>
                     <xsl:apply-templates />
                 </math>
+                <p>Авторство</p><h4 id="author" title="a2s">Андрей Смирнов (с)2024</h4>
             </body>
         </html>
     </xsl:template>
